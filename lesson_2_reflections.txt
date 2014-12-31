@@ -1,0 +1,8 @@
+##
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+##
+
+it does not commit first
+allows you to add changed files
+then save message about how files were changed
+
