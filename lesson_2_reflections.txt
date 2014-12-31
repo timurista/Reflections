@@ -6,7 +6,30 @@ it does not commit first
 allows you to add changed files
 then save message about how files were changed
 
-C:\Program Files\Sublime Text 2
+C:\Program Files\Sublime Text 2\sublime_text
+
+
+use git diff to see changes in staging area
+
+git diff --staged you will see changes to lesson 2 but nothing else
+
+git checkout master to stay with most recent version, align head to top.
+
+###
+How can you use the staging area to make sure you have one commit per logical change?
+
+by making sure staging area contains possible changes and adding/removing item from it.
+
+branches are names for git commits
+
+###
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+create a git branch using:
+git branch # to view branches
+git branch BRANCH-NAME # to add branches
+
+
+
 
 
 
