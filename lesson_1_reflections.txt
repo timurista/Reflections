@@ -1,0 +1,51 @@
+pwd # print working directory - shows what directory you are in
+ls  # list the files in this directory
+
+mkdir # makes directory
+
+to view differences
+1) go to directory (cd ~ dir name)
+2) >> fc old_file.js new_file.js
+# mac
+3) >> diff old_file.js new_file.js
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It was very helpful to easily find the differences and then compare them. Saved time and made debugging easier to deal with since typos could be spotted.
+
+git diff
+can show changes in commits
+
+
+### reflections
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+pros manual commits - logically breaks up your commits into code chunks
+cons - you may miss something
+cons - unexpected events may crash a commit
+pros - you decide what constittues a big enough change
+
+
+commit 1
+b0678b161fcf74467ed3a63110557e3d6229cfa6
+commit 2
+75928a98e18479b22b18888a33d36379f17b43c1
+
+How can you use the commands git log and git diff to view the history of files?
+
+you can use commands to see what changes were made and then narrow in on changes for each commit file.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+using version control would make me more confident that if I were to change anything, I could go back and check what was broken and see it more clearly.
+
+##
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use it to do version control for my python files
+
+
+
+
+
