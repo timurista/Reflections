@@ -2,3 +2,16 @@ Lesson 3
 When would you want to use a remote repository rather than keeping all your work local?
 
 when your collaborating, working with multiple computers, or want to show a public version to the world.
+
+concepts
+####
+GitHub
+git push
+git pull
+remote
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+You want to pull manually so that you can decide ultimately if you want the files on Github to override your local repository or not.
+
+
