@@ -1,1 +1,4 @@
 Lesson 3
+When would you want to use a remote repository rather than keeping all your work local?
+
+when your collaborating, working with multiple computers, or want to show a public version to the world.
