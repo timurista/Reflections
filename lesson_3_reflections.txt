@@ -15,3 +15,21 @@ Why might you want to always pull changes manually rather than having Git automa
 You want to pull manually so that you can decide ultimately if you want the files on Github to override your local repository or not.
 
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+forks are when github creates a repository of a file on its machine and then you link to that on your end. Clones are when you create a copy of a remote or local repository on your local repository and branches are when you create a different version or named mode of your current repository (which can be merged later). This new branch does not affect the previous master but can be merged with it. Allows for multiple edits.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+if you are offline you can still work on project you know the state of the commit and other files added to it. You will know what work has currently been done on the project.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+YOu would send emails every time a change was made. It would make it harder to see changes to code.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+use seperate branch so you can work on other features while you use the master to keep a working version of your project and not break existing code. Benefits by not brnaching out are that you don't have to worry about switching to a new version, its also easier to see where the code is in one place. But it also makes it harder to collaborate.
+
+
