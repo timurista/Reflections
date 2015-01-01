@@ -28,6 +28,40 @@ create a git branch using:
 git branch # to view branches
 git branch BRANCH-NAME # to add branches
 
+experimental branch
+feature branch
+developmental branch
+
+good for collaboration
+
+
+git log and graph of changes do this->
+git log --graph --oneline master coins
+
+git checkout -b new_branch_name
+is like git checkout + git branch
+
+
+How do the diagrams help you visualize the branch structure?
+
+they allow you to see a history of git commits and easily tell the differences between 2 versions or branches in the version history.
+
+git merge branch2 branch3
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+result is to two pages sync into one. why represent with diagram? to show that they are connected and visually archive the changes.
+
+
+###
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+git add, then git commit
+pros - you dont have to do it yurself, cons - some changes may cause conflict
+
+
+
+
 
 
 
